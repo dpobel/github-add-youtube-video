@@ -35,7 +35,7 @@
         }
         vid = vid.replace(/.*v=([a-z0-9_]+).*/gi, '$1');
         textarea.value = `${value.substring(0, textarea.selectionStart)}
-[![Screencast](https://img.youtube.com/vi/${vid}/0.jpg)](http://www.youtube.com/watch?v=${vid} "Click to play on Youtube.com")
+[![](https://img.youtube.com/vi/${vid}/0.jpg)](http://www.youtube.com/watch?v=${vid} "Click to play on Youtube.com")
 ${value.substring(textarea.selectionEnd)}`;
     }
 
