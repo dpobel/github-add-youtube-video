@@ -1,3 +1,4 @@
+#This is a open source project.
 # github-add-youtube-video
 
 A Greasemonkey script to better integrate Youtube videos in Github markdown
